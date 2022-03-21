@@ -4,17 +4,12 @@
 }
 @font-face {
     font-family: AkiraExpanded-SuperBold;
-    src:url("/Akira Expanded Demo.otf");
-}
-@font-face {
+    src:url("/akira.otf");
     font-family: Geogrotesque-Regular;
     src:url("/FontsFree-Net-Geogtq-Rg.otf");
 }
-
 .maincontainer {
     background-image: url(background.svg);
-    font-family: Geogrotesque-Regular;
-    font-family: AkiraExpanded-SuperBold;
 }
 
 .maincontent{    
