@@ -18,10 +18,6 @@
 .maincontainer {
     background-image: url(background.svg);
 }
-.logo {
-    height: 45vh;
-    min-width: 50vw;
-}
 .maincontent{    
     display: flex;
     flex-direction:column;
