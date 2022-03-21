@@ -6,6 +6,8 @@
 @font-face {
     font-family: AkiraExpanded-SuperBold;
     src:url(akira_expanded_demo-webfont.woff);
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face{
     
