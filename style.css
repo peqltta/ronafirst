@@ -13,6 +13,8 @@
 
 .maincontainer {
     background-image: url(background.svg);
+    font-family: Geogrotesque-Regular;
+    font-family: AkiraExpanded-SuperBold;
 }
 
 .maincontent{    
