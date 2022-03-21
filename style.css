@@ -21,8 +21,9 @@
 .maincontent{    
     display: flex;
     flex-direction:column;
-    margin-left: 25%;
-    width:50%;
+}
+@media screen and (min-width: 1080px) {
+    .maincontent{margin-left: 25%; width: 50%;}
 }
 .whitelistbtn {
     font-family: AkiraExpanded-SuperBold;
@@ -35,6 +36,8 @@
     text-align: center;
     box-shadow:0px 0px 0px 2px #fff inset;
 }
+
+
 .whitelistbtn:hover{
     box-shadow:0px 0px 0px 1vh #fff inset;
 }
