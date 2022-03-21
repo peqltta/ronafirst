@@ -20,8 +20,6 @@
     flex-direction:column;
     margin-left: 25%;
     width:50%;
-    clip: rect(10px, 20px, 30px, 40px);
-}
 
 .whitelistbtn {
     width:50%;
@@ -31,5 +29,5 @@
 
 .whitelistbtn:hover{
     border-color: #fff;
-    box-shadow:0px 0px 0px 30px #fff inset;
+    box-shadow:0px 0px 0px 10px #fff inset;
 }
