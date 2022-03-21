@@ -5,12 +5,12 @@
 }
 @font-face {
     font-family: AkiraExpanded-SuperBold;
-    src:url("/akira_expanded_demo-webfont.woff");
+    src:url(akira_expanded_demo-webfont.woff);
 }
 @font-face{
     
     font-family: Geogrotesque-Regular;
-    src:url("/FontsFree-Net-Geogtq-Rg.otf");
+    src:url(FontsFree-Net-Geogtq-Rg.otf);
 }
 .maincontainer {
     background-image: url(background.svg);
