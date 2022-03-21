@@ -29,5 +29,5 @@
 
 .whitelistbtn:hover{
     border-color: #fff;
-    box-shadow:0px 0px 0px 1px #fff inset;
+    box-shadow:0px 0px 0px 1vh #fff inset;
 }
