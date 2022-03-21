@@ -1,17 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 @font-face {
     font-family: AkiraExpanded-SuperBold;
-    src:url("/akira.otf");
+    src:url("/akira_expanded_demo-webfont.woff");
+}
+@font-face{
+    
     font-family: Geogrotesque-Regular;
     src:url("/FontsFree-Net-Geogtq-Rg.otf");
 }
 .maincontainer {
     background-image: url(background.svg);
 }
-
+.logo {
+    height: 45vh;
+}
 .maincontent{    
     display: flex;
     flex-direction:column;
@@ -19,12 +25,16 @@
     width:50%;
 }
 .whitelistbtn {
+    font-family: AkiraExpanded-SuperBold;
+    font-size: 2vh;
     width:50%;
     margin-left: 25%;
     transition: 0.3s;
+    color: white;
+    padding: 2vh;
+    text-align: center;
+    box-shadow:0px 0px 0px 2px #fff inset;
 }
-
 .whitelistbtn:hover{
-    border-color: #fff;
     box-shadow:0px 0px 0px 1vh #fff inset;
 }
